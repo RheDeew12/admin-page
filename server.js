@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   
-  res.sendFile(path.join(__dirname, "home_admin.html"));
+  res.sendFile(path.join(__dirname, "home_admin.php"));
 });
 
 const PORT = process.env.PORT || 8080;
